@@ -1,5 +1,7 @@
 import bgAbstract from "../assets/abstract-bg.png";
 
+import Navbar from "./Navbar";
+
 export default function App() {
   return (
     <div
@@ -8,6 +10,7 @@ export default function App() {
         backgroundImage: `url(${bgAbstract})`,
       }}
     >
+      <Navbar />
       fdsfsdfsd
     </div>
   );
