@@ -54,6 +54,10 @@ export const NavItem = styled.li`
   @media only screen and (max-width: 768px) {
     margin: 2.5rem 0;
   }
+
+  img {
+    height: 50px;
+  }
 `;
 
 export const Hamburger = styled.div`
