@@ -1,3 +1,3 @@
 export default function Navbar() {
-  return <nav>fdsfs</nav>
+  return <nav><h1>Gothreau</h1></nav>
 }

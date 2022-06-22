@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ropa+Sans&display=swap');
+
 html,
 body {
   margin: 0;
@@ -9,3 +11,4 @@ body {
   width: 100%;
   height: 100%;
 }
+
