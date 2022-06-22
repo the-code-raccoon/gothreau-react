@@ -9,17 +9,17 @@ export default function Navbar() {
       <NavLogo>Gothreau</NavLogo>
       <NavMenu className={hamburgerActive ? "" : "active"}>
         <NavItem>
-          <a href="#" class="nav-link">
+          <a href="/about" class="nav-link">
             About
           </a>
         </NavItem>
         <NavItem>
-          <a href="#" class="nav-link">
+          <a href="/music" class="nav-link">
             Music
           </a>
         </NavItem>
         <NavItem>
-          <a href="#" class="nav-link">
+          <a href="/contact" class="nav-link">
             Contact
           </a>
         </NavItem>
