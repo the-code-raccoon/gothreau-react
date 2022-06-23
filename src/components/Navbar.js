@@ -1,24 +1,28 @@
 import { useState } from "react";
+
+import { NavLink } from "react-router-dom";
+
 import { Nav, NavMenu, NavLogo, NavItem, Hamburger } from "./Navbar-styles";
 
 export default function Navbar() {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
+  const closeMenu = () => {
+    setHamburgerActive((prev) => !prev);
+  };
+
   return (
     <Nav>
       <NavLogo>Gothreau</NavLogo>
       <NavMenu className={hamburgerActive ? "active" : ""}>
-        <NavItem>
-          <a href="/about">About</a>
+        <NavItem onClick={closeMenu}>
+          <NavLink to="about">About</NavLink>
         </NavItem>
-        <NavItem>
-          <a href="/music">Music</a>
+        <NavItem onClick={closeMenu}>
+          <NavLink to="music">Music</NavLink>
         </NavItem>
-        <NavItem>
-          <a href="/contact">Contact</a>
-        </NavItem>
-        <NavItem>
-          
+        <NavItem onClick={closeMenu}>
+          <NavLink to="contact">Contact</NavLink>
         </NavItem>
       </NavMenu>
       <Hamburger
