@@ -13,15 +13,49 @@ export default function App() {
         backgroundImage: `url(${bgAbstract})`,
       }}
     >
-      <Navbar />
       <Socials />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<>fdfsd</>} />
-          <Route path="/about" element={<>about</>} />
-          <Route path="/music" element={<>music</>} />
-          <Route path="/contact" element={<>contact</>} />
-          <Route path="*" element={<>where are you man</>} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar /> fdfsd
+              </>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <>
+                <Navbar /> about
+              </>
+            }
+          />
+          <Route
+            path="/music"
+            element={
+              <>
+                <Navbar /> music
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <Navbar /> contact
+              </>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <>
+                <Navbar /> where are you man
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>
