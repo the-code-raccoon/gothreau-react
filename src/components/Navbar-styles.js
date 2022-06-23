@@ -45,6 +45,10 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   list-style: none;
   margin-left: 5rem;
+  display: flex;
+  font-family: 'Ropa Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
 
   a {
     text-decoration: none;
@@ -56,7 +60,9 @@ export const NavItem = styled.li`
   }
 
   img {
-    height: 50px;
+    height: 25px;
+    filter: invert(100%) sepia(6%) saturate(4717%) hue-rotate(264deg) brightness(120%) contrast(105%); 
+    padding: 0 0.75rem;
   }
 `;
 

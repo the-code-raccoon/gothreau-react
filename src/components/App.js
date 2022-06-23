@@ -1,6 +1,7 @@
 import bgAbstract from "../assets/abstract-bg.png";
 
 import Navbar from "./Navbar";
+import Socials from "./Socials";
 
 export default function App() {
   return (
