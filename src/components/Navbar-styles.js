@@ -58,12 +58,6 @@ export const NavItem = styled.li`
   @media only screen and (max-width: 768px) {
     margin: 2.5rem 0;
   }
-
-  img {
-    height: 25px;
-    filter: invert(100%) sepia(6%) saturate(4717%) hue-rotate(264deg) brightness(120%) contrast(105%); 
-    padding: 0 0.75rem;
-  }
 `;
 
 export const Hamburger = styled.div`

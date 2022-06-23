@@ -1,3 +1,5 @@
+import { Container, Icon } from "./Socials-style";
+
 import spotify from "../assets/spotify.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
@@ -34,7 +36,7 @@ export default function Socials() {
   ];
 
   return (
-    <>
+    <Container>
       {socials.map((social) => {
         return (
           <a
@@ -43,10 +45,10 @@ export default function Socials() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={social.src} alt={social.link} />
+            <Icon src={social.src} alt={social.link} />
           </a>
         );
       })}
-    </>
+    </Container>
   );
 }

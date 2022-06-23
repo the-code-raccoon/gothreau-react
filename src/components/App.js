@@ -12,6 +12,7 @@ export default function App() {
       }}
     >
       <Navbar />
+      <Socials />
       fdsfsdfsd
     </div>
   );
